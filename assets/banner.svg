@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="55%" stop-color="#4338ca"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.2" r="0.6">
+      <stop offset="0%" stop-color="#fbbf24" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="24" fill="url(#glow)"/>
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="2">
+    <circle cx="1020" cy="150" r="70"/><circle cx="1020" cy="150" r="110"/><circle cx="1020" cy="150" r="150"/>
+  </g>
+  <g fill="#ffffff">
+    <circle cx="1020" cy="150" r="14"/>
+    <circle cx="950" cy="100" r="9" fill-opacity="0.9"/><circle cx="1100" cy="120" r="9" fill-opacity="0.9"/>
+    <circle cx="1060" cy="235" r="9" fill-opacity="0.9"/><circle cx="930" cy="215" r="7" fill-opacity="0.7"/>
+  </g>
+  <g stroke="#ffffff" stroke-opacity="0.6" stroke-width="2">
+    <line x1="1020" y1="150" x2="950" y2="100"/><line x1="1020" y1="150" x2="1100" y2="120"/>
+    <line x1="1020" y1="150" x2="1060" y2="235"/><line x1="1020" y1="150" x2="930" y2="215"/>
+  </g>
+  <text x="70" y="125" font-family="Helvetica, Arial, sans-serif" font-size="56" font-weight="700" fill="#ffffff">Espacio de conocimiento</text>
+  <text x="70" y="185" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#e0e7ff">Un "Project" compartido, sin plan Teams</text>
+  <text x="70" y="240" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#fde68a" letter-spacing="3">POC · NOVIEMBRE 2026</text>
+</svg>
